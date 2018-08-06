@@ -1,0 +1,21 @@
+
+
+<div  class="float-right" class="chip">
+  <img src="assets/logo.jpg" alt="Person" width="96" height="96" >
+  Peter Hoang
+</div>
+<br>
+<input type="text" [(ngModel)]="searchText" placeholder="Search to type">
+
+
+<br>
+<br>
+<ul>
+  
+ <div *ngFor="let c of namelinks | filter : searchText"  >
+ <table  border="1" class="table table row"><a [routerLink]="['/persondetails',c.name]">{{c.name}}</a>
+  </table>
+</div>
+
+</ul>
+
