@@ -1,20 +1,4 @@
-.chip {
-    display: inline-block;
-    padding: 0 25px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 50px;
-    border-radius: 25px;
-    background-color: #f1f1f1;
-}
 
-.chip img {
-    float: left;
-    margin: 0 10px 0 -25px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
 table, td {
     border: 1px solid white;
   
@@ -29,10 +13,3 @@ table, td {
     overflow-x: hidden;
     padding-top: 20px;
 }
-.float-right {
-    position: absolute;
-    right: 150px;
-    width: 200px;
-    height: 120px;
-      /* no float necessary */
-  }
